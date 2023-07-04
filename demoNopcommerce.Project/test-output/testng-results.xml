@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-26T14:04:37 EET" name="Default Suite" finished-at="2023-06-26T14:04:50 EET" duration-ms="12507">
+    <groups>
+    </groups>
+    <test started-at="2023-06-26T14:04:37 EET" name="ITI.Project" finished-at="2023-06-26T14:04:50 EET" duration-ms="12507">
+      <class name="Tests.ChangePasswordTest">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:Tests.ChangePasswordTest@1fe20588]" started-at="2023-06-26T14:04:37 EET" name="StartDriver" finished-at="2023-06-26T14:04:43 EET" duration-ms="5378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="userCanRegisterSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.ChangePasswordTest@1fe20588]" started-at="2023-06-26T14:04:43 EET" name="userCanRegisterSuccessfully" data-provider="registeration&amp;login" finished-at="2023-06-26T14:04:46 EET" duration-ms="3698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abdulrahmn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abdo1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method is-config="true" signature="ScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.ChangePasswordTest@1fe20588]" started-at="2023-06-26T14:04:46 EET" name="ScreenShotOnFailure" finished-at="2023-06-26T14:04:46 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=ChangePasswordTest.userCanRegisterSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.ChangePasswordTest@1fe20588] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFailure -->
+        <test-method signature="userCanLoginSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.ChangePasswordTest@1fe20588]" started-at="2023-06-26T14:04:46 EET" name="userCanLoginSuccessfully" data-provider="registeration&amp;login" finished-at="2023-06-26T14:04:47 EET" duration-ms="1055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abdulrahmn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abdo1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLoginSuccessfully -->
+        <test-method is-config="true" signature="ScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.ChangePasswordTest@1fe20588]" started-at="2023-06-26T14:04:47 EET" name="ScreenShotOnFailure" finished-at="2023-06-26T14:04:47 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanLoginSuccessfully status=SUCCESS method=ChangePasswordTest.userCanLoginSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.ChangePasswordTest@1fe20588] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFailure -->
+        <test-method signature="userCanChangePasswordSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Tests.ChangePasswordTest@1fe20588]" started-at="2023-06-26T14:04:47 EET" name="userCanChangePasswordSuccessfully" data-provider="registeration&amp;login" finished-at="2023-06-26T14:04:49 EET" duration-ms="1898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abdulrahmn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abdo1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanChangePasswordSuccessfully -->
+        <test-method is-config="true" signature="ScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.ChangePasswordTest@1fe20588]" started-at="2023-06-26T14:04:49 EET" name="ScreenShotOnFailure" finished-at="2023-06-26T14:04:49 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanChangePasswordSuccessfully status=SUCCESS method=ChangePasswordTest.userCanChangePasswordSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Tests.ChangePasswordTest@1fe20588] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:Tests.ChangePasswordTest@1fe20588]" started-at="2023-06-26T14:04:49 EET" name="StopDriver" finished-at="2023-06-26T14:04:50 EET" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- Tests.ChangePasswordTest -->
+    </test> <!-- ITI.Project -->
+  </suite> <!-- Default Suite -->
+</testng-results>

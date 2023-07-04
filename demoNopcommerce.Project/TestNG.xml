@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="nopCommerce Regression Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <test  name="Regression Test" preserve-order="true">
+        <classes>
+            <class name="Tests.ChangePasswordTest"/>
+            <class name="Tests.ChangePasswordTestFail"/>
+            <class name="Tests.AddProductToReviewTest"/>
+            <class name="Tests.AddProductToReviewTestFail"/>
+            <class name="Tests.EmailFriendTest"/>
+            <class name="Tests.EmailFriendTestFail"/>
+            <class name="Tests.AddProductToWishlistTest"/>
+            <class name="Tests.AddProductToWishlistTestFail"/>
+            <class name="Tests.CheckoutProductTest"/>
+            <class name="Tests.CheckoutProductTestPrintDownloadInvoice"/>
+        </classes>
+    </test>
+</suite>
